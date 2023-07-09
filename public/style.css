@@ -1,0 +1,139 @@
+body {
+    background-color: transparent;
+    transition: 0.5s;
+    display: none;
+}
+
+.container {
+    position: fixed;
+    width: 41vw;
+    height: 41vw;
+    border-radius: 0.1vw;
+    background-color: rgba(41, 53, 86, 1);
+    background-image: radial-gradient(circle, rgba(41, 53, 86, 1) 57%, rgba(30, 30, 41, 1) 89%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.melting p {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    margin-top: 0.9vw;
+    font-size: 1vw;
+    font-family: Calibri, Calibri;
+    font-weight: 600;
+    color: white;
+}
+
+
+.melting .bar {
+    width: 78%;
+    height: 1.7vw;
+    border-radius: 5vw;
+    position: fixed;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -43%);
+    background-color: #b1b1b158;
+}
+
+
+.bar .melter {
+    height: 100%;
+    width: 18%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    position: absolute;
+    background: rgb(255, 207, 139);
+    background: linear-gradient(90deg, rgba(255, 207, 139, 1) 0%, rgba(223, 161, 78, 1) 45%);
+    border-radius: 0.2vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.5s;
+}
+
+.cursor {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    position: absolute;
+    width: 1.2vw;
+    margin-top: -5px;
+    height: 2.35vw;
+    border-radius: 0.7vw;
+    background-color: #ffffffde;
+    margin-top: 0.5px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.1s;
+}
+
+.progressbar p {
+    position: absolute;
+    top: 82%;
+    left: 50%;
+    transform: translate(-50%, -82%);
+    color: rgba(226, 226, 226, 0.734);
+}
+
+.progress {
+    width: 70%;
+    height: 1vw;
+    border-radius: 5vw;
+    position: absolute;
+    top: 88.5%;
+    left: 50%;
+    transform: translate(-50%, -88.5%);
+    background-color: #b1b1b158;
+}
+
+.progress-fill {
+    width: 100%;
+    height: 100%;
+    border-radius: 5vw;
+    background-color: rgb(77, 120, 178);
+    transition: width 0.1s ease-in;
+}
+
+
+.keyCaps {
+    position: absolute;
+    top: 97%;
+    left: 50%;
+    transform: translate(-50%, -97%);
+}
+
+.left {
+    margin-right: 0.3vw;
+    float: left;
+    width: 2.4vw;
+    height: 2.4vw;
+    background-color: rgba(61, 61, 61, 0.614);
+    border: 0.18vw solid #b1b1b158;
+    border-radius: 0.2vw;
+}
+
+
+.right {
+    margin-left: 0.3vw;
+    float: left;
+    width: 2.4vw;
+    height: 2.4vw;
+    background-color: rgba(61, 61, 61, 0.614);
+    border: 0.18vw solid #b1b1b158;
+    border-radius: 0.2vw;
+}
+
+.fa-solid {
+    color: rgb(208, 208, 208);
+    font-size: 1.15vw;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    margin-top: 0.67vw;
+}
